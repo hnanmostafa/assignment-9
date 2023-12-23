@@ -1,0 +1,106 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  color: #aaa;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.my-sec-words {
+  background-color: #eee;
+  padding-inline: 8rem !important;
+}
+
+label {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.my-contain {
+  padding-inline: 2rem !important;
+}
+
+.header-conain {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.my-line-contain {
+  padding-inline: 1.5rem !important ;
+  border-bottom: 1px solid;
+}
+
+.my-n-line-contain {
+  padding-inline: 0.5rem !important;
+}
+input {
+  font-weight: 600;
+}
+
+input:hover {
+  box-shadow: 0px 0px 12px -7px #888;
+}
+input:focus {
+  border-color: #000 !important;
+  outline: 0;
+  box-shadow: 0 0 0 1px rgb(0 0 0) !important;
+}
+.btn {
+  transition: 0.3s all;
+  color: #fff;
+}
+.my-blu-btn {
+  background-color: #1167c4;
+}
+.my-red-btn {
+  background-color: #910004;
+}
+.btn:hover {
+  box-shadow: 2px 5px 3px 0px #888;
+  color: #fff;
+}
+.my-blu-btn:hover {
+  background-color: #0a3f77;
+  border: 1px solid #0a3f77;
+}
+.my-red-btn:hover {
+  background-color: #910004;
+  border: 1px solid #910004;
+}
+
+.my-footer-line {
+  border-bottom: none;
+  border-top: 1px solid;
+}
+footer p {
+  color: #aaa;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.my-card {
+  background-image: linear-gradient(#eee, #fff);
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+.my-warning1,
+.my-warning2 {
+  width: 100%;
+  text-align: center;
+  border-radius: 0.375rem;
+  background-color: #ffb2b2;
+  color: #6d0000;
+  border: 1px solid #6d0000;
+  display: none;
+}
